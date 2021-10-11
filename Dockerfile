@@ -11,4 +11,6 @@ RUN npm install -g @nestjs/cli@8.0.0
 
 USER node
 
+RUN mkdir -p /home/node/app
+
 WORKDIR /home/node/app
